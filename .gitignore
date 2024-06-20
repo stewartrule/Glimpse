@@ -1,0 +1,13 @@
+*.beam
+*.ez
+/build
+erl_crash.dump
+
+priv/static/img
+priv/static/app.css
+priv/static/app.min.css
+priv/static/app.min.mjs
+priv/static/app.mjs
+priv/static/index.html
+
+oimg

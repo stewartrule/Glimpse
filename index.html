@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glance</title>
+    <meta name="description" content="A shiny scheduling app" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="stylesheet" href="/priv/static/app.css" />
+    <style>
+      * {
+        user-select: none;
+      }
+
+      .lines-deg-60 {
+        background: repeating-linear-gradient(
+          -60deg,
+          #fff,
+          #fff 8px,
+          #f8f8f8 8px,
+          #f8f8f8 16px
+        );
+      }
+
+      .scrollbar-none::-webkit-scrollbar {
+        display: none;
+      }
+
+      .scrollbar-none {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+    <script type="module" src="/priv/static/lifecycle-events.mjs"></script>
+    <script type="module" src="/priv/static/app.mjs"></script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
